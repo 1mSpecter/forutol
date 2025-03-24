@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#animated-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    
+}
+
+.content {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    margin: 16px;
+    padding: 20px
+
+}
+
+p{
+    color: white;
+    font-size: 60px;
+}
+
+h3 {
+    color: white;
+    font-size: 2em;
+    margin-top: 100px
+}
+
+.arrow-down{
+    font-size: 70px;
+    margin-top: 20px;
+    animation: pointdown 1000ms infinite alternate-reverse;
+}
+
+@keyframes pointdown {
+0%{
+        transform: translateY(0);
+
+    }
+
+100%{
+        transform: translateY(50px);
+
+    }
+}
+
+.btn-grad {background-image: linear-gradient(to right, #B3FFAB 0%, #12FFF7  51%, #B3FFAB  100%)}
+.btn-grad {
+   margin: 50px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #000;
+   text-decoration: none;
+ }
+
+
+ @media (max-width: 1536px) {
+    h1{
+        color: white;
+        font-size: 80px;
+        margin: 16px;
+        padding: 20px
+    
+    }
+    
+    p{
+        color: white;
+        font-size: 60px;
+    }
+ }
+ @media (max-width: 1280px) {
+    h1{
+        color: white;
+        font-size: 70px;
+        margin: 16px;
+        padding: 20px
+    
+    }
+    
+    p{
+        color: white;
+        font-size: 50px;
+    }
+ }
+ @media (max-width: 1024px) {
+    h1{
+        color: white;
+        font-size: 60px;
+        margin: 16px;
+        padding: 20px
+    
+    }
+    
+    p{
+        color: white;
+        font-size: 40px;
+    }
+    
+ }
+ @media (max-width: 768px) {
+    h1{
+        color: white;
+        font-size: 45px;
+        margin: 16px;
+        padding: 20px
+    
+    }
+    
+    p{
+        color: white;
+        font-size: 35px;
+    }
+ }
+ @media (max-width: 640px) {
+    h1{
+        color: white;
+        font-size: 35px;
+        margin: 16px;
+        padding: 20px
+    
+    }
+    
+    p{
+        color: white;
+        font-size: 25px;
+    }
+ }
+ @media (max-width: 480px) {
+    h1{
+        color: white;
+        font-size: 20px;
+        margin: 16px;
+        padding: 20px
+    
+    }
+    
+    p{
+        color: white;
+        font-size: 15px;
+    }
+ }
+ 
+ 
+ 
+ 
+
