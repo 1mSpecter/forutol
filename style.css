@@ -13,7 +13,7 @@
 
 .content {
     position: absolute;
-    width: 60%;
+    width: 90%;
     height: 100%;
     left: 50%;
     top: 50%;
@@ -32,7 +32,10 @@ h1{
 p{
     color: white;
     font-size: 60px;
+    margin: 16px;
+    padding: 20px;
 }
+
 
 h3 {
     color: white;
@@ -153,15 +156,16 @@ h3 {
  @media (max-width: 480px) {
     h1{
         color: white;
-        font-size: 20px;
+        font-size: 35x;
         margin: 16px;
-        padding: 20px
+        padding: 30px;
     
     }
     
     p{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
+        padding: 20px
     }
  }
  
